@@ -1,0 +1,45 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  /* .main-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  } */
+
+  .nav-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.ul-list ul {
+    display: flex;
+    color: black;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.account-class {
+    padding: 8px 12px;
+}

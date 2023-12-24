@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma Sign up Page</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div id="split-screen">
+      <!-- Individual or first box -->
+      <section>
+        <div class="first-box">
+          <article>
+            <div class="source">
+              <figure>
+                <img src="./Logo.png" alt="logo" width="100px" />
+              </figure>
+            <h1 class="h1">For Individuals</h1>
+            <p>
+              Start benefiting from the wellness experience. For companies
+              looking on increasing productivity, and improving organization
+              wellness.
+            </p>
+        </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- sign up page -->
+      <section class="second-box">
+          <form class="form-box">
+            <div class="right-box">
+              <div class="left-part">
+                <div class="entry">
+                  <div class="text"><label for="first name">First Name</label></div>
+                  <input type="text" name="first name" required />
+                </div>
+
+                <div class="entry">        
+                  <div class="text"><label for="gender">Gender</label></div>
+                  <select name="gender" required>
+                    <option value="">Select here</option>
+                  </select>
+                </div>
+
+                <div class="entry">
+                  <div class="text"><label for="weight">Weight (KG)</label></div>
+                  <input
+                    type="number"
+                    name="weight"
+                    placeholder="enter weight"
+                  />
+                </div>
+              </div>
+
+              <div class="right-part">
+                <div class="entry">
+                  <div class="text"><label for="last name">Last Name</label></div>
+                  <input type="text" name="last name" />
+                </div>
+
+                  <div class="entry">
+                      <div class="text"><label for="date">Date of Birth</label></div>
+                      <input type="date" name="date" required/>
+                  </div>
+
+                <div class="entry">
+                  <div class="text"><label for="height">Height (CM)</label></div>
+                  <input
+                    type="number"
+                    name="height"
+                    placeholder="Enter height here"/>
+                </div>
+              </div>
+            </div>
+
+            <div class="entry">
+              <div class="text"><label for="activity level">Activity Level</label></div>
+              <select name="activity level">
+                <option value="">Select here</option>
+              </select>
+            </div>
+
+            <div class="entry">
+              <div class="text"><label for="password">Password</label></div>
+              <input type="password" name="password" />
+            </div>
+
+            <footer>
+              <button class="submit-btn">Register</button>
+              <p>
+                By clicking Register, you agree to our
+                <a href="">Terms of use</a> and our
+                <a href="">Privacy Policy</a>
+              </p>
+            </footer>
+          </form>
+      </section>
+    </div>
+  </body>
+</html>
